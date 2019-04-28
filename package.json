@@ -2,7 +2,7 @@
 	"name": "iso639-codes",
 	"main": "index.json",
 	"preferGlobal": false,
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "ISO639 Codes for JavaScript",
 	"author": {
 		"name": "Tiago Danin",
