@@ -1,5 +1,5 @@
 {
-	"name": "iso639",
+	"name": "iso639-codes",
 	"main": "index.json",
 	"preferGlobal": false,
 	"version": "0.0.1",
@@ -33,14 +33,14 @@
 	"private": false,
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/TiagoDanin/ISO639.git"
+		"url": "https://github.com/TiagoDanin/ISO639-Codes.git"
 	},
-	"homepage": "https://TiagoDanin.github.io/ISO639",
+	"homepage": "https://TiagoDanin.github.io/ISO639-Codes",
 	"bugs": {
-		"url": "https://github.com/TiagoDanin/ISO639/issues"
+		"url": "https://github.com/TiagoDanin/ISO639-Codes/issues"
 	},
 	"github": {
-		"name": "ISO639",
+		"name": "ISO639-Codes",
 		"owner": "TiagoDanin"
 	},
 	"files": [
