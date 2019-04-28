@@ -1,0 +1,51 @@
+{
+	"name": "iso639",
+	"main": "index.js",
+	"preferGlobal": false,
+	"version": "0.0.1",
+	"description": "ISO639 Codes for JavaScript",
+	"author": {
+		"name": "Tiago Danin",
+		"email": "TiagoDanin@outlook.com",
+		"url": "https://TiagoDanin.github.io"
+	},
+	"license": "MIT",
+	"keywords": [
+		"code-locality",
+		"codes",
+		"i18n",
+		"iso",
+		"iso639",
+		"iso639-1",
+		"iso639-2",
+		"languages",
+		"locale",
+		"locales"
+	],
+	"scripts": {
+		"start": "node index.js",
+		"test": "echo \"Nice Test :)\""
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"private": false,
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/TiagoDanin/ISO639.git"
+	},
+	"homepage": "https://TiagoDanin.github.io/ISO639",
+	"bugs": {
+		"url": "https://github.com/TiagoDanin/ISO639/issues"
+	},
+	"github": {
+		"name": "ISO639",
+		"owner": "TiagoDanin"
+	},
+	"files": [
+		"LICENSE",
+		"README.md"
+	],
+	"dependencies": {},
+	"devDependencies": {}
+}
