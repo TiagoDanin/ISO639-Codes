@@ -1,6 +1,6 @@
 {
 	"name": "iso639",
-	"main": "index.js",
+	"main": "index.json",
 	"preferGlobal": false,
 	"version": "0.0.1",
 	"description": "ISO639 Codes for JavaScript",
@@ -18,13 +18,14 @@
 		"iso639",
 		"iso639-1",
 		"iso639-2",
+		"json",
 		"languages",
 		"locale",
 		"locales"
 	],
 	"scripts": {
 		"start": "node index.js",
-		"test": "echo \"Nice Test :)\""
+		"test": "node test.js"
 	},
 	"engines": {
 		"node": ">=8"
@@ -44,7 +45,8 @@
 	},
 	"files": [
 		"LICENSE",
-		"README.md"
+		"README.md",
+		"index.json"
 	],
 	"dependencies": {},
 	"devDependencies": {}
