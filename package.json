@@ -28,7 +28,7 @@
 		"test": "node test.js"
 	},
 	"engines": {
-		"node": ">=v8.17.0"
+		"node": ">=22.14.0"
 	},
 	"private": false,
 	"repository": {
