@@ -18,7 +18,7 @@ yarn add iso639-codes
 ## Example
 
 ```js
-const iso = require('iso639-codes')
+import iso from 'iso639-codes'
 
 iso['Portuguese'].name //'Portuguese'
 iso['Portuguese'].names //['Portuguese']
@@ -30,6 +30,19 @@ iso['Balinese']['iso639-1'] // null
 
 iso['Chichewa'].name // 'Chichewa'
 iso['Chichewa'].names // ['Chichewa', 'Chewa', 'Nyanja']
+```
+
+> **CommonJS is still supported.** `const iso = require('iso639-codes')` keeps
+> working and returns the same data.
+
+TypeScript types ship with the package, including the union of every available language key:
+
+```ts
+import iso from 'iso639-codes'
+import type { Iso639Code, Iso639Key } from 'iso639-codes'
+
+const key: Iso639Key = 'Portuguese' // 'Klingonese' would not compile
+const code: Iso639Code = iso[key]
 ```
 
 ## Documentation
@@ -47,6 +60,15 @@ Get ISO information
 
 ### Source
 **NOTE:** Source is [www.loc.gov/standards/iso639-2/php/English_list.php](https://www.loc.gov/standards/iso639-2/php/English_list.php)
+
+`index.json` is produced by `parser.js`, which is pasted in the browser console of the page above. `index.mjs` and `index.d.ts` are generated from `index.json`:
+
+```sh
+npm run build
+# Or one at a time
+npm run build:esm
+npm run build:types
+```
 
 ## Tests
 
