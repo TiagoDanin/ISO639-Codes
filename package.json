@@ -24,11 +24,10 @@
 		"locales"
 	],
 	"scripts": {
-		"start": "node index.js",
 		"test": "node test.js"
 	},
 	"engines": {
-		"node": ">=v8.17.0"
+		"node": ">=v22.0.0"
 	},
 	"private": false,
 	"repository": {

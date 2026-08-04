@@ -1,6 +1,6 @@
 # ISO639 Codes
 
-[![Node](https://img.shields.io/node/v/iso639-codes.svg?style=flat-square)](https://npmjs.org/package/iso639-codes) [![Version](https://img.shields.io/npm/v/iso639-codes.svg?style=flat-square)](https://npmjs.org/package/iso639-codes) [![Downloads](https://img.shields.io/npm/dt/iso639-codes.svg?style=flat-square)](https://npmjs.org/package/iso639-codes) [![Travis](https://img.shields.io/travis/TiagoDanin/ISO639-Codes.svg?branch=master&style=flat-square)](https://travis-ci.org/TiagoDanin/ISO639-Codes) 
+[![Node](https://img.shields.io/node/v/iso639-codes.svg?style=flat-square)](https://npmjs.org/package/iso639-codes) [![Version](https://img.shields.io/npm/v/iso639-codes.svg?style=flat-square)](https://npmjs.org/package/iso639-codes) [![Downloads](https://img.shields.io/npm/dt/iso639-codes.svg?style=flat-square)](https://npmjs.org/package/iso639-codes)
 
 ISO639 Codes for JavaScript
 
