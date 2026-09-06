@@ -363,7 +363,7 @@
 		"name": "Bihari languages",
 		"names": ["Bihari languages"],
 		"iso639-2": "bih",
-		"iso639-1": "bh"
+		"iso639-1": null
 	},
 	"Bikol": {
 		"name": "Bikol",
@@ -412,12 +412,6 @@
 		"names": ["Blissymbols", "Blissymbolics", "Bliss"],
 		"iso639-2": "zbl",
 		"iso639-1": null
-	},
-	"Bokmål, Norwegian": {
-		"name": "Bokmål, Norwegian",
-		"names": ["Bokmål, Norwegian", "Norwegian Bokmål"],
-		"iso639-2": "nob",
-		"iso639-1": "nb"
 	},
 	"Bosnian": {
 		"name": "Bosnian",
@@ -793,7 +787,7 @@
 	},
 	"Dogrib": {
 		"name": "Dogrib",
-		"names": ["Dogrib"],
+		"names": ["Tlicho", "Dogrib"],
 		"iso639-2": "dgr",
 		"iso639-1": null
 	},
@@ -1126,12 +1120,6 @@
 		"names": ["Greek, Ancient (to 1453)"],
 		"iso639-2": "grc",
 		"iso639-1": null
-	},
-	"Greek, Modern (1453-)": {
-		"name": "Greek, Modern (1453-)",
-		"names": ["Greek, Modern (1453-)"],
-		"iso639-2": "gre/ell",
-		"iso639-1": "el"
 	},
 	"Greenlandic": {
 		"name": "Greenlandic",
@@ -2009,6 +1997,12 @@
 		"iso639-2": "mwl",
 		"iso639-1": null
 	},
+	"Modern Greek (1453-)": {
+		"name": "Modern Greek (1453-)",
+		"names": ["Modern Greek (1453-)"],
+		"iso639-2": "gre/ell",
+		"iso639-1": "el"
+	},
 	"Mohawk": {
 		"name": "Mohawk",
 		"names": ["Mohawk"],
@@ -2111,18 +2105,6 @@
 		"iso639-2": "nav",
 		"iso639-1": "nv"
 	},
-	"Ndebele, North": {
-		"name": "Ndebele, North",
-		"names": ["Ndebele, North", "North Ndebele"],
-		"iso639-2": "nde",
-		"iso639-1": "nd"
-	},
-	"Ndebele, South": {
-		"name": "Ndebele, South",
-		"names": ["Ndebele, South", "South Ndebele"],
-		"iso639-2": "nbl",
-		"iso639-1": "nr"
-	},
 	"Ndonga": {
 		"name": "Ndonga",
 		"names": ["Ndonga"],
@@ -2137,7 +2119,7 @@
 	},
 	"Nepal Bhasa": {
 		"name": "Nepal Bhasa",
-		"names": ["Nepal Bhasa", "Newari"],
+		"names": ["Nepal Bhasa", "Newar", "Newari"],
 		"iso639-2": "new",
 		"iso639-1": null
 	},
@@ -2147,9 +2129,15 @@
 		"iso639-2": "nep",
 		"iso639-1": "ne"
 	},
+	"Newar": {
+		"name": "Newar",
+		"names": ["Nepal Bhasa", "Newar", "Newari"],
+		"iso639-2": "new",
+		"iso639-1": null
+	},
 	"Newari": {
 		"name": "Newari",
-		"names": ["Nepal Bhasa", "Newari"],
+		"names": ["Nepal Bhasa", "Newar", "Newari"],
 		"iso639-2": "new",
 		"iso639-1": null
 	},
@@ -2203,7 +2191,7 @@
 	},
 	"North Ndebele": {
 		"name": "North Ndebele",
-		"names": ["Ndebele, North", "North Ndebele"],
+		"names": ["North Ndebele"],
 		"iso639-2": "nde",
 		"iso639-1": "nd"
 	},
@@ -2233,13 +2221,13 @@
 	},
 	"Norwegian Bokmål": {
 		"name": "Norwegian Bokmål",
-		"names": ["Bokmål, Norwegian", "Norwegian Bokmål"],
+		"names": ["Norwegian Bokmål"],
 		"iso639-2": "nob",
 		"iso639-1": "nb"
 	},
 	"Norwegian Nynorsk": {
 		"name": "Norwegian Nynorsk",
-		"names": ["Norwegian Nynorsk", "Nynorsk, Norwegian"],
+		"names": ["Norwegian Nynorsk"],
 		"iso639-2": "nno",
 		"iso639-1": "nn"
 	},
@@ -2278,12 +2266,6 @@
 		"names": ["Nyankole"],
 		"iso639-2": "nyn",
 		"iso639-1": null
-	},
-	"Nynorsk, Norwegian": {
-		"name": "Nynorsk, Norwegian",
-		"names": ["Norwegian Nynorsk", "Nynorsk, Norwegian"],
-		"iso639-2": "nno",
-		"iso639-1": "nn"
 	},
 	"Nyoro": {
 		"name": "Nyoro",
@@ -2837,12 +2819,6 @@
 		"iso639-2": "wen",
 		"iso639-1": null
 	},
-	"Sotho, Northern": {
-		"name": "Sotho, Northern",
-		"names": ["Pedi", "Sepedi", "Northern Sotho"],
-		"iso639-2": "nso",
-		"iso639-1": null
-	},
 	"Sotho, Southern": {
 		"name": "Sotho, Southern",
 		"names": ["Sotho, Southern"],
@@ -2857,7 +2833,7 @@
 	},
 	"South Ndebele": {
 		"name": "South Ndebele",
-		"names": ["Ndebele, South", "South Ndebele"],
+		"names": ["South Ndebele"],
 		"iso639-2": "nbl",
 		"iso639-1": "nr"
 	},
@@ -3045,6 +3021,12 @@
 		"name": "tlhIngan-Hol",
 		"names": ["Klingon", "tlhIngan-Hol"],
 		"iso639-2": "tlh",
+		"iso639-1": null
+	},
+	"Tlicho": {
+		"name": "Tlicho",
+		"names": ["Tlicho", "Dogrib"],
+		"iso639-2": "dgr",
 		"iso639-1": null
 	},
 	"Tlingit": {

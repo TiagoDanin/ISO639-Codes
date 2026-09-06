@@ -59,3 +59,7 @@ typings/
 
 # next.js build output
 .next
+
+# Data source downloads (see parser.js)
+ISO-639-2_utf-8.txt
+English_list.html
