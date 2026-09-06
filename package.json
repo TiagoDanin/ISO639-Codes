@@ -4,15 +4,20 @@
 	"types": "index.d.ts",
 	"exports": {
 		".": {
-			"types": "./index.d.ts",
-			"import": "./index.mjs",
-			"require": "./index.json"
+			"import": {
+				"types": "./index.d.mts",
+				"default": "./index.mjs"
+			},
+			"require": {
+				"types": "./index.d.ts",
+				"default": "./index.json"
+			}
 		},
 		"./index.json": "./index.json",
 		"./package.json": "./package.json"
 	},
 	"preferGlobal": false,
-	"version": "1.1.0",
+	"version": "2.0.0",
 	"description": "ISO639 Codes for JavaScript",
 	"author": {
 		"name": "Tiago Danin",
@@ -41,7 +46,7 @@
 		"test": "npm run lint && node test.js"
 	},
 	"engines": {
-		"node": ">=v14.17.4"
+		"node": ">=18"
 	},
 	"private": false,
 	"repository": {
@@ -61,7 +66,8 @@
 		"README.md",
 		"index.json",
 		"index.mjs",
-		"index.d.ts"
+		"index.d.ts",
+		"index.d.mts"
 	],
 	"standard": {
 		"ignore": [

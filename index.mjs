@@ -567,3 +567,4 @@ const codes = {
 }
 
 export default codes
+export { codes }

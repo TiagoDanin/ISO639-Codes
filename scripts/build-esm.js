@@ -33,6 +33,7 @@ const buildEsm = (codes) => {
     '}',
     '',
     'export default codes',
+    'export { codes }',
     ''
   ].join('\n')
 }
